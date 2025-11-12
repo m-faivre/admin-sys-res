@@ -1,0 +1,11 @@
+$TTL 3D
+@       IN      SOA     ns.beesafe.co. root.beesafe.co. (
+                3       ; Serial
+                1D      ; Refresh
+                1H      ; Retry
+                1W      ; Expire
+                1H )    ; Negative Cache TTL
+;
+@       IN      NS      ns.beesafe.co.
+
+140     IN      PTR     www.beesafe.co.
