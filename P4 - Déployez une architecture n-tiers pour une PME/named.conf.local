@@ -1,0 +1,8 @@
+zone "beesafe.co" {
+        type master;
+        file "/etc/bind/db.beesafe.co";
+};
+zone "20.168.192.in-addr.arpa" {
+        type master;
+        file "/etc/bind/reverse.beesafe.co";
+};
