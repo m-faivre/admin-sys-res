@@ -1,0 +1,3 @@
+CREATE USER IF NOT EXISTS 'micka'@'%' IDENTIFIED BY '^&DW_oen@FqX65mL';
+GRANT ALL PRIVILEGES ON beesafe_db.* TO 'micka'@'%';
+FLUSH PRIVILEGES;
