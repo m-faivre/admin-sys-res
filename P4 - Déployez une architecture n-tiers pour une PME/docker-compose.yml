@@ -1,0 +1,81 @@
+services:
+# Configuration de l'image web
+  web:
+    depends_on:
+      - db
+      - bind9
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: beesafe
+    # On link le dossier du site au dossier /var/www/html du conteneur (live mounting)
+    # Idem pour le vhost
+    volumes:
+      - ./beesafe:/var/www/html
+      - ./vhost:/etc/apache2/sites-available
+    restart: always
+    environment:
+      WEBSITE_DB_HOST: db:3306
+      WEBSITE_DB_USER: "micka"
+      WEBSITE_DB_PASSWORD: "^&DW_oen@FqX65mL"
+      WEBSITE_DB_NAME: "beesafe_db"
+    networks:
+      beesafe_net:
+        ipv4_address: 192.168.20.140
+
+
+# Configuration de l'image db
+  db:
+    image: mysql:latest
+    container_name: mysql
+    restart: always
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./beesafe/sql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      # L'user est créé via l'attribut environment, il n'est pas nécessaire de le créer via un script SQL
+      #- ./beesafe/sql/user.sql:/docker-entrypoint-initdb.d/02-user.sql
+      - ./beesafe/sql/grants.sql:/docker-entrypoint-initdb.d/03-grants.sql
+      - ./beesafe/sql/data.sql:/docker-entrypoint-initdb.d/04-data.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: "^&DW_oen@FqX65mL"
+      MYSQL_DATABASE: "beesafe_db"
+      MYSQL_USER: "micka"
+      MYSQL_PASSWORD: "^&DW_oen@FqX65mL"
+      MYSQL_ROOT_HOST: 127.0.0.1
+    networks:
+      beesafe_net:
+        ipv4_address: 192.168.20.135
+
+
+# Configuration de l'image bind9
+  bind9:
+    image: internetsystemsconsortium/bind9:9.20
+    container_name: bind9
+    restart: always
+    environment:
+      - BIND9_USER=root
+      - TZ=Europe/Paris
+    volumes:
+      - ./bind9/named.conf.options:/etc/bind/named.conf.options
+      - ./bind9/named.conf.local:/etc/bind/named.conf.local
+      - ./bind9/db.beesafe.co:/etc/bind/db.beesafe.co
+      - ./bind9/reverse.beesafe.co:/etc/bind/reverse.beesafe.co
+    networks:
+      beesafe_net:
+        ipv4_address: 192.168.20.134
+
+
+# Configuration du réseau spécifique aux conteneurs
+networks:
+  beesafe_net:
+    name: beesafe_net
+    driver: macvlan
+    driver_opts:
+      parent: ens18
+    ipam:
+      config:
+        - subnet: 192.168.20.0/24
+          gateway: 192.168.20.1
+
+volumes:
+  db_data:
