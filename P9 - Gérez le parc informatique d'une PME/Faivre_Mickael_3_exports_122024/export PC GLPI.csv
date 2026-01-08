@@ -1,0 +1,53 @@
+﻿"Nom";"Utilisateur";"Groupe";"Commentaires";"Type";"Composants - Processeur";
+"p9-ubu";" ";"";"";"VMware";"12th Gen Intel(R) Core(TM) i5-12600KF";
+"p9-ubuntu";" ";"";"";"VMware";"12th Gen Intel(R) Core(TM) i5-12600KF";
+"P9-W10";" ";"";"";"VirtualBox";"12th Gen Intel Core i5-12600KF";
+"P9-WIN11";" ";"";"";"VMware";"12th Gen Intel Core i5-12600KF";
+"PCX-GPH-001";"Lang Fabrice";"Designers";"RX 590
+A remplacer par RTX 3080 - Compatibilité 4k & RT";"PC fixe";"";
+"PCX-GPH-002";"Paquette Fauna";"Designers";"Nvidia 1660 Super";"PC fixe";"";
+"PCX-GPH-003";"Séguin Cerise";"Designers";"Nvidia 1660 Super";"PC fixe";"";
+"PFX-DEV-001";"Fournier Alexandre";"Développeurs";"Nvidia 1660 Super";"PC fixe";"";
+"PFX-DEV-002";"Monjeau Martine";"Développeurs";"Nvidia 1660 Super";"PC fixe";"";
+"PFX-DEV-003";"Champagne Jeannine";"Développeurs";"RX 590
+A remplacer par RTX 3080 - Compatibilité 4k & RT";"PC fixe";"";
+"PFX-DEV-004";"Baron Javier";"Développeurs";"RX 590
+A remplacer par RTX 3080 - Compatibilité 4k & RT";"PC fixe";"";
+"PFX-DEV-005";"Poirier de Buisson Paul";"Développeurs";"RTX 3080";"PC fixe";"";
+"PFX-SIT-001";"Banon Basile";"SI";"";"PC fixe";"";
+"PFX-SIT-002";"Faivre Mickaël";"SI";"";"PC fixe";"";
+"PFX-SND-001";"Dupy Emmeline";"Direction";"Nvidia 1660 Super";"PC fixe";"";
+"PFX-SND-002";"Anoux Marc";"Sound_Designers";"RX 590
+A remplacer par RTX 3080 - Compatibilité 4k & RT";"PC fixe";"";
+"PFX-SND-003";"Gaulin Florence";"Sound_Designers";"Nvidia 1660 Super";"PC fixe";"";
+"PFX-TST-001";"Caron Cédric";"Testeurs";"Nvidia 1660 Super";"PC fixe";"";
+"PPB-ADM-001";"Turcotte Amber";"Direction";"Prévoir remplacement batterie ou remplacement PC";"PC portable";"";
+"PPB-ADM-002";"Marcoux Pascal";"Direction";"Prévoir remplacement batterie ou remplacement PC";"PC portable";"";
+"PPB-ADM-003";"Roux Nicolas";"Direction";"Prévoir remplacement batterie ou remplacement PC";"PC portable";"";
+"PPB-ADM-004";"Couturier Odette";"Direction";"Prévoir remplacement batterie ou remplacement PC";"PC portable";"";
+"PPB-ADM-005";"Favreau Gifford";"Prod_Com";"Prévoir remplacement batterie ou remplacement PC";"PC portable";"";
+"PPB-ADM-006";"Fluet Damien";"Prod_Com";"Prévoir remplacement batterie ou remplacement PC";"PC portable";"";
+"PPB-DEV-001";"Arcouet Vick";"Développeurs";"";"PC portable";"";
+"PPB-DEV-002";"Gamelin Hariette";"Développeurs";"";"PC portable";"";
+"PPB-DEV-003";"Aupry Byron";"Développeurs";"";"PC portable";"";
+"PPB-DEV-004";"Navarro Elise";"Développeurs";"";"PC portable";"";
+"PPB-GPH-001";"Allard Mathilda";"Direction";"Prévoir remplacement batterie ou remplacement PC";"PC portable";"";
+"PPB-GPH-002";"Lazure Morgana";"Designers";"Prévoir remplacement batterie ou remplacement PC";"PC portable";"";
+"PPB-GPH-004";"Daigneault Julienne";"Développeurs";"";"PC portable";"";
+"PPB-GPH-005";"Laurent Laetitia";"Développeurs";"";"PC portable";"";
+"PPB-GPH-006";"Cailot Antoine";"Designers";"";"PC portable";"";
+"PPB-GPH-007";"Schneider Bertrand";"Designers";"";"PC portable";"";
+"PPB-SND-001";"Gougeon Véronique";"Sound_Designers";"";"PC portable";"";
+"PPB-SND-002";"Ramos Denis";"Sound_Designers";"";"PC portable";"";
+"PPB-TST-001";"Langelier Gaspar";"Testeurs";"";"PC portable";"";
+"PPB-TST-002";"Descoteaux Dominique";"Testeurs";"";"PC portable";"";
+"PPB-TST-003";"Desaulniers Christiane";"Testeurs";"";"PC portable";"";
+"PPB-TST-004";"Jacob Vincent";"Testeurs";"";"PC portable";"";
+"SPA-DEV-001";"Champagne Jeannine";"Développeurs";"";"Smartphone Android";"";
+"SPA-DEV-002";"Baron Javier";"Développeurs";"";"Smartphone Android";"";
+"SPA-DEV-003";"Arcouet Vick";"Développeurs";"";"Smartphone Android";"";
+"SPA-DEV-004";"Navarro Elise";"Développeurs";"";"Smartphone Android";"";
+"SPA-TST-001";"Hervé Isabelle";"Testeurs";"";"Smartphone Android";"";
+"SPI-DEV-001";"Monjeau Martine";"Développeurs";"";"Smartphone iOS";"";
+"SPI-DEV-002";"Gamelin Hariette";"Développeurs";"";"Smartphone iOS";"";
+"SPI-TST-001";"Ruiz René Daniel";"Testeurs";"";"Smartphone iOS";"";
