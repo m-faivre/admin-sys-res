@@ -1,0 +1,14 @@
+03-03-2025 - 19:27:08 [INFO] Création d'une sauvegarde incrémentale par dossier
+03-03-2025 - 19:27:08 [INFO] Sauvegarde non effectuée. Aucun changement détecté. Source : /home/micka/Dir/Tickets/ - Destination : /home/micka/Backup/Incr/Tickets/03-03-2025
+04-03-2025 - 11:35:10 [INFO] Création d'une sauvegarde incrémentale complète...
+04-03-2025 - 11:35:10 [INFO] Synchronisation réussie. Type : Incrémental - Source : /home/micka/Dir/Site/ - Destination : /home/micka/Backup/Incr/Site/04-03-2025
+04-03-2025 - 11:35:10 [INFO] Synchronisation réussie. Type : Incrémental - Source : /home/micka/Dir/RH/ - Destination : /home/micka/Backup/Incr/RH/04-03-2025
+04-03-2025 - 11:35:10 [INFO] Synchronisation réussie. Type : Incrémental - Source : /home/micka/Dir/Mails/ - Destination : /home/micka/Backup/Incr/Mails/04-03-2025
+04-03-2025 - 11:35:10 [INFO] Synchronisation réussie. Type : Incrémental - Source : /home/micka/Dir/Tickets/ - Destination : /home/micka/Backup/Incr/Tickets/04-03-2025
+05-03-2025 - 12:35:45 [INFO] Synchronisation réussie. Type : Incrémental - Source : /home/micka/Dir/Mails - Destination : /home/micka/Backup/Incr/Mails/05-03-2025
+06-03-2025 - 03:00:02 [INFO] Synchronisation réussie. Type : Incrémental - Source : /home/micka/Dir/Mails - Destination : /home/micka/Backup/Incr/Mails/06-03-2025
+06-03-2025 - 03:00:02 [INFO] Sauvegarde automatique du dossier Mails.
+06-03-2025 - 03:00:02 [INFO] Synchronisation réussie. Type : Incrémental - Source : /home/micka/Dir/Tickets - Destination : /home/micka/Backup/Incr/Tickets/06-03-2025
+06-03-2025 - 03:00:02 [INFO] Sauvegarde automatique du dossier Tickets.
+06-03-2025 - 03:00:02 [INFO] Synchronisation réussie. Type : Incrémental - Source : /home/micka/Dir/RH - Destination : /home/micka/Backup/Incr/RH/06-03-2025
+06-03-2025 - 03:00:02 [INFO] Sauvegarde automatique du dossier RH.

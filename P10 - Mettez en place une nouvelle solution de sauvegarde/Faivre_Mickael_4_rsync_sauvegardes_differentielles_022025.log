@@ -1,0 +1,13 @@
+03-03-2025 - 15:45:40 [INFO] Création d'une sauvegarde différentielle complète...
+03-03-2025 - 15:45:40 [INFO] Synchronisation réussie. Type : Différentiel - Source : /home/micka/Dir/Machines/ - Destination : /home/micka/Backup/Diff/Machines/03-03-2025
+03-03-2025 - 15:46:52 [INFO] Suppression de la sauvegarde /home/micka/Backup/Diff/Machines/24-02-2025/. Âge maximal atteint (7 jours)
+03-03-2025 - 16:04:28 [INFO] Création d'une sauvegarde différentielle complète...
+03-03-2025 - 16:04:28 [INFO] Sauvegarde non effectuée. Aucun changement détecté. Source : /home/micka/Dir/Machines/ - Destination : /home/micka/Backup/Diff/Machines/03-03-2025
+03-03-2025 - 16:04:28 [INFO] Création d'une sauvegarde différentielle complète...
+03-03-2025 - 16:04:28 [INFO] Synchronisation réussie. Type : Différentiel - Source : /home/micka/Dir/Machines/ - Destination : /home/micka/Backup/Diff/Machines/03-03-2025
+03-03-2025 - 19:27:08 [INFO] Création d'une sauvegarde différentielle par dossier
+03-03-2025 - 19:27:08 [INFO] Sauvegarde non effectuée. Aucun changement détecté. Source : /home/micka/Dir/Machines/ - Destination : /home/micka/Backup/Diff/Machines/03-03-2025
+04-03-2025 - 11:35:10 [INFO] Création d'une sauvegarde différentielle complète...
+04-03-2025 - 11:35:10 [INFO] Synchronisation réussie. Type : Différentiel - Source : /home/micka/Dir/Machines/ - Destination : /home/micka/Backup/Diff/Machines/04-03-2025
+06-03-2025 - 02:00:01 [INFO] Synchronisation réussie. Type : Différentiel - Source : /home/micka/Dir/Machines - Destination : /home/micka/Backup/Diff/Machines/06-03-2025
+06-03-2025 - 02:00:01 [INFO] Sauvegarde automatique du dossier Machines.
