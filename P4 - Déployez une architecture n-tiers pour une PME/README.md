@@ -1,67 +1,41 @@
-# 🧩 Projet de formation – Infrastructure 3-tiers BeeSafe
+# 🧩 Projet – Déploiement d’une architecture web 3-tiers
 
 ## 📘 Description du projet
 
-Vous travaillez chez **BeeSafe**, une startup d’assurance en ligne, en tant qu’**administrateur systèmes et réseaux**.  
-Vous faites partie de l’équipe chargée de l’exploitation des sites web de l’entreprise et du maintien en condition opérationnelle de l’infrastructure.  
+Vous travaillez en tant qu’**administrateur systèmes et réseaux** chez **BeeSafe**, une startup d’assurance.  
+Vous faites partie de l’équipe en charge de l’**exploitation des sites web** de la startup et êtes responsable de la **mise à disposition des moyens informatiques** ainsi que du **maintien en condition opérationnelle** de l’infrastructure.
 
-Un nouveau site web basé sur des technologies **open source** doit être déployé.  
-Il a été décidé de l’installer selon une **architecture 3-tiers** afin de faciliter la maintenance, l’isolation des services et le déploiement.  
+Un **nouveau site web** basé sur des technologies **open source** doit être déployé.  
+Il est décidé de mettre en place une **architecture 3-tiers** afin de faciliter le déploiement.
 
-Votre rôle consiste à **concevoir et déployer l’infrastructure complète** permettant d’héberger ces trois services :
-- un **serveur DNS (BIND9)**,
-- un **serveur web (Apache/PHP)**,
-- un **serveur de base de données (MySQL)**.
+Votre rôle consiste à **concevoir et mettre en place l’infrastructure** permettant d’héberger les **trois services** de cette architecture.
 
 ---
 
-## ⚙️ Scripts et configurations développés
+## ⚙️ Livrables réalisés
 
-### 🧱 1. Configuration DNS – `BIND9`
-**Objectif :** assurer la résolution directe et inverse du domaine `beesafe.co`.
+### 🧱 1. Fichiers de configuration DNS (TXT)
+- Fichiers intégrant le **nom de domaine**
 
-#### ✨ Fonctionnalités principales
-- Déclaration de la **zone directe** `beesafe.co` et de la **zone inverse** `20.168.192.in-addr.arpa`.  
-- Enregistrements DNS :
-  - `A` : résolution des noms `ns.beesafe.co` et `www.beesafe.co`
-  - `NS` : désignation du serveur de noms
-  - `PTR` : résolution inverse du site web vers `www.beesafe.co`
+### 🧱 2. Fichiers de configuration du service HTTPD / Apache (TXT)
+- Configuration du **virtual host** hébergeant le site
 
-#### 🔐 Points techniques
-- Fichiers de configuration :
-  - `named.conf.local`
-  - `db.beesafe.co`
-  - `reverse.beesafe.co`
-- Serveur BIND9 conteneurisé (`bind9:9.20`)
-- IP du conteneur : **192.168.20.134/24**
-- Port d’écoute : **53 (TCP/UDP)**
+### 🧱 3. Script SQL de création du compte d’exploitation
+- Script SQL permettant la création du **compte d’exploitation de la base de données**
+
+### 🧱 4. Fichier de configuration des sources du prototype
+- Modification des sources pour intégrer les **identifiants de connexion** à la base de données
+
+### 🧱 5. Schéma de l’architecture 3-tiers (PDF)
+- Schéma décrivant l’architecture complète
 
 ---
 
-### 🧱 2. Serveur Web – `Apache / PHP`
-**Objectif :** héberger le site web de BeeSafe sur un conteneur Apache avec PHP 8.2.
+## 🧰 Technologies utilisées
 
-#### ✨ Fonctionnalités principales
-- Configuration d’un **VirtualHost** pour le domaine `www.beesafe.co`
-- Autorisation des **fichiers .htaccess** et des liens symboliques
-- Gestion des **logs Apache** :
-  - `error.log`
-  - `access.log`
-
-#### 🔐 Points techniques
-- Image Docker : **php:8.2-apache**
-- Port exposé : **80**
-- Répertoire racine : `/var/www/html`
-- IP du conteneur : **192.168.20.140/24**
-
----
-
-### 🧱 3. Base de données – `MySQL`
-**Objectif :** créer et configurer la base de données de l’application BeeSafe.
-
-#### ✨ Fonctionnalités principales
-- Création du compte utilisateur MySQL :
-  ```sql
-  CREATE USER IF NOT EXISTS 'micka'@'%' IDENTIFIED BY '^&DW_oen@FqX65mL';
-  GRANT ALL PRIVILEGES ON beesafe_db.* TO 'micka'@'%';
-  FLUSH PRIVILEGES;
+- **DNS**
+- **Apache / HTTPD**
+- **SQL**
+- Architecture **3-tiers**
+- Technologies open source
+- Outils de documentation technique
