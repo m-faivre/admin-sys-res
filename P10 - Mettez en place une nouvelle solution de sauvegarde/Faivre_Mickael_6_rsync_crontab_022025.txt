@@ -1,0 +1,12 @@
+# Mail - Tous les jours jours, à 3h (incrémentale)
+0 3 * * * /home/micka/backup.sh --Mails
+# Idem pour RH (incrémental)
+0 3 * * * /home/micka/backup.sh --RH
+# Idem pour Tickets (incrémentale)
+0 3 * * * /home/micka/backup.sh --Tickets
+# Site - Tous les jours, à 3h (incrémentale)
+0 3 * * * /home/micka/backup.sh --Site
+# Machines - Tous les jours, à 2h (différentielle)
+0 2 * * * /home/micka/backup.sh --Machines
+# Backup complet- Tous les vendredis, à 1h
+0 1 * * 5 /home/micka/backup.sh --full

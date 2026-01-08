@@ -1,0 +1,12 @@
+03-03-2025 - 15:50:39 [INFO] Suppression de la sauvegarde /home/micka/Backup/Full/Mails/17-02-2025/. Âge maximal atteint (15 jours)
+03-03-2025 - 15:50:39 [INFO] Suppression de la sauvegarde /home/micka/Backup/Full/Tickets/17-02-2025/. Âge maximal atteint (15 jours)
+03-03-2025 - 15:50:39 [INFO] Suppression de la sauvegarde /home/micka/Backup/Full/RH/17-02-2025/. Âge maximal atteint (15 jours)
+03-03-2025 - 19:27:08 [INFO] Sauvegarde non effectuée. Aucun changement détecté. Source : /home/micka/Dir/Site/ - Destination : /home/micka/Backup/Full/Site/03-03-2025
+03-03-2025 - 19:27:08 [INFO] Sauvegarde non effectuée. Aucun changement détecté. Source : /home/micka/Dir/RH/ - Destination : /home/micka/Backup/Full/RH/03-03-2025
+03-03-2025 - 19:27:08 [INFO] Sauvegarde non effectuée. Aucun changement détecté. Source : /home/micka/Dir/Mails/ - Destination : /home/micka/Backup/Full/Mails/03-03-2025
+03-03-2025 - 19:27:08 [INFO] Sauvegarde non effectuée. Aucun changement détecté. Source : /home/micka/Dir/Tickets/ - Destination : /home/micka/Backup/Full/Tickets/03-03-2025
+03-03-2025 - 19:27:08 [INFO] Synchronisation réussie. Type : Complet - Source : /home/micka/Dir/Machines/ - Destination : /home/micka/Backup/Full/Machines/03-03-2025
+04-03-2025 - 11:35:10 [INFO] Synchronisation réussie. Type : Complet - Source : /home/micka/Dir/Site/ - Destination : /home/micka/Backup/Full/Site/04-03-2025
+04-03-2025 - 11:35:10 [INFO] Synchronisation réussie. Type : Complet - Source : /home/micka/Dir/RH/ - Destination : /home/micka/Backup/Full/RH/04-03-2025
+04-03-2025 - 11:35:10 [INFO] Synchronisation réussie. Type : Complet - Source : /home/micka/Dir/Mails/ - Destination : /home/micka/Backup/Full/Mails/04-03-2025
+04-03-2025 - 11:35:10 [INFO] Synchronisation réussie. Type : Complet - Source : /home/micka/Dir/Tickets/ - Destination : /home/micka/Backup/Full/Tickets/04-03-2025
